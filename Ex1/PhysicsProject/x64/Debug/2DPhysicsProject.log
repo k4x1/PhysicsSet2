@@ -1,0 +1,25 @@
+﻿  FKSegment.cpp
+  Grass.cpp
+D:\forkRepos\sfmlPhysicsExercisesSet2\PhysicsSet2\Ex1\PhysicsProject\Grass.cpp(15,33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\forkRepos\sfmlPhysicsExercisesSet2\PhysicsSet2\Ex1\PhysicsProject\Grass.cpp(17,85): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\forkRepos\sfmlPhysicsExercisesSet2\PhysicsSet2\Ex1\PhysicsProject\Grass.cpp(17,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\forkRepos\sfmlPhysicsExercisesSet2\PhysicsSet2\Ex1\PhysicsProject\Grass.cpp(25,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+  Generating Code...
+  2DPhysicsProject.vcxproj -> D:\forkRepos\sfmlPhysicsExercisesSet2\PhysicsSet2\Ex1\x64\Debug\PhysicsProject.exe
