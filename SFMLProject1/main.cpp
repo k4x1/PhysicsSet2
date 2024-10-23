@@ -1,12 +1,16 @@
-#include <SFML/Graphics.hpp>
-#include <iostream>
 
+#include "Utils.h"
+#include "Grass.h"
 
 int main()
 {
     //Create the window with a set resolution:
     sf::RenderWindow window(sf::VideoMode(1280, 720), "SFML Project");
     
+    // Sine function clock
+    Clock clock;
+
+    Grass* GrassManager = new Grass(window);
 
     while (window.isOpen())
     {
@@ -21,12 +25,14 @@ int main()
                 break;
             case sf::Event::MouseButtonPressed:
              
+              
                 break;
             }
 
         }
         window.clear();
-
+        GrassManager->Update(clock);
+        GrassManager->Draw(window);
         
 
         //////////////////////////////////

@@ -1,14 +1,19 @@
 #pragma once
-#include <SFML/Graphics.hpp>
-#include <iostream>
-
+#include "Utils.h"
+#include "FKSegment.h"
 
 class Grass
 {
-	public Grass(sf::RenderWindow& _window);
+public:
+	Grass(sf::RenderWindow& _window);
 
-	void Update(sf::Clock& _clock);
+	void Update(Clock& _clock);
 
-	void 
+	void Draw(sf::RenderWindow& _window);
+
+private:
+	std::vector<class FKSegment*> m_RootSegments;
+
+	Vert m_Line[2];
 };
 
