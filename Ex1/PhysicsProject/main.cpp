@@ -1,33 +1,41 @@
-#include "SFML/Graphics.hpp"
-#include "box2d\box2D.h"
-#include <iostream>
-#include <vector>
 
-using namespace std;
+#include "Utils.h"
+#include "Grass.h"
 
 int main()
 {
-    //Creates an SFML window at a desired resolution.
-    sf::RenderWindow window(sf::VideoMode(1280, 720), "SFML and Box2D");
-    window.setFramerateLimit(60);     
+    //Create the window with a set resolution:
+    sf::RenderWindow window(sf::VideoMode(1280, 720), "SFML Project");
+    
+    // Sine function clock
+    Clock clock;
 
-    //This is the drawing section for SFML.
+    Grass* GrassManager = new Grass(window);
+
     while (window.isOpen())
     {
-        //Clear the previous window. If we don't do this, we will draw on top of previous stuff.
-        window.clear();
-
-        //Window events:
+        //Receive and deal with events here (mouse clicks, key events, window buttons etc).
         sf::Event event;
         while (window.pollEvent(event))
         {
-            if (event.type == sf::Event::Closed)
+            switch (event.type)
             {
+            case sf::Event::Closed:
                 window.close();
+                break;
+            case sf::Event::MouseButtonPressed:
+             
+              
+                break;
             }
-        }
 
-        //Finally, display the window.
+        }
+        window.clear();
+        GrassManager->Update(clock);
+        GrassManager->Draw(window);
+        
+
+        //////////////////////////////////
         window.display();
     }
 

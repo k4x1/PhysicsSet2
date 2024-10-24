@@ -1,5 +1,28 @@
 ﻿  FKSegment.cpp
-c1xx : fatal  error C1083: Cannot open source file: 'FKSegment.cpp': No such file or directory
   Grass.cpp
-c1xx : fatal  error C1083: Cannot open source file: 'Grass.cpp': No such file or directory
+D:\forkRepos\sfmlPhysicsExercisesSet2\PhysicsSet2\Ex1\PhysicsProject\Grass.cpp(15,33): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\forkRepos\sfmlPhysicsExercisesSet2\PhysicsSet2\Ex1\PhysicsProject\Grass.cpp(17,85): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\forkRepos\sfmlPhysicsExercisesSet2\PhysicsSet2\Ex1\PhysicsProject\Grass.cpp(17,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+D:\forkRepos\sfmlPhysicsExercisesSet2\PhysicsSet2\Ex1\PhysicsProject\Grass.cpp(25,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   main.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 95 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  2DPhysicsProject.vcxproj -> D:\forkRepos\sfmlPhysicsExercisesSet2\PhysicsSet2\Ex1\x64\Release\PhysicsProject.exe
