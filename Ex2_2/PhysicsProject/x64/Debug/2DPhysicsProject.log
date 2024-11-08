@@ -1,0 +1,6 @@
+﻿  Arm.cpp
+D:\forkRepos\sfmlPhysicsExercisesSet2\PhysicsSet2\Ex2_2\PhysicsProject\Arm.cpp(39,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  IKSegment.cpp
+  main.cpp
+  Generating Code...
+  2DPhysicsProject.vcxproj -> D:\forkRepos\sfmlPhysicsExercisesSet2\PhysicsSet2\Ex2_2\x64\Debug\PhysicsProject.exe
